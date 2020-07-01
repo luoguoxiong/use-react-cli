@@ -1,7 +1,7 @@
 {
   "name": "use-react-cli",
-  "version": "0.0.1",
-  "description": "构建react应用的脚手架",
+  "version": "0.0.2",
+  "description": "Construction of scaffold for react application!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
