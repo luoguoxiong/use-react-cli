@@ -15,6 +15,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@/*": ["./src/*"]
     }

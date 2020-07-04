@@ -1,15 +1,15 @@
 import AsyncComponent from "@/components/AsyncComponent";
 
-const Home = AsyncComponent(() => import("./home"));
-const Good = AsyncComponent(() => import("./good"));
-const routes = [
+const Home = AsyncComponent(() => import("."));
+const Count = AsyncComponent(() => import("./count"));
+
+export default [
   {
     link: "/",
     component: Home,
   },
   {
-    link: "/goods",
-    component: Good,
+    linl: "/count",
+    component: Count,
   },
 ];
-export default routes;

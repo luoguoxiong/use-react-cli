@@ -1,5 +1,5 @@
 {
-  "name": "react-cli",
+  "name": "react-cli-template-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "node build/build.js",
     "report": "npm run build --report",
-    "clean": "rimraf node_modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf node_modules"
   },
   "dependencies": {
     "@rematch/core": "^1.4.0",
@@ -41,7 +40,7 @@
     "copy-webpack-plugin": "^6.0.2",
     "core-js": "^3.6.5",
     "css-loader": "^3.6.0",
-    "eslint": "^6.2.0",
+    "eslint": "^7.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^4.0.2",
     "file-loader": "^6.0.0",
@@ -74,7 +73,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Peroluo/react-cli.git"
+    "url": "git+https://github.com/Peroluo/react-cli-template.git"
   },
   "keywords": [
     "react"
@@ -82,9 +81,9 @@
   "author": "peroLuo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Peroluo/react-cli/issues"
+    "url": "https://github.com/Peroluo/react-cli-template/issues"
   },
-  "homepage": "https://github.com/Peroluo/react-cli#readme",
+  "homepage": "https://github.com/Peroluo/react-cli-template#readme",
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"

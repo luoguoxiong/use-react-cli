@@ -1,6 +1,6 @@
 {
   "name": "use-react-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Construction of scaffold for react application!",
   "main": "index.js",
   "scripts": {

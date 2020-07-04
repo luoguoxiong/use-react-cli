@@ -1,7 +1,7 @@
 import { init, RematchRootState, RematchDispatch } from "@rematch/core";
-import { dolphins } from "@/store/dolphins";
+import { count } from "@/store/count";
 
-const models: RootModel = { dolphins };
+const models: RootModel = { count };
 
 export const store = init({
   models,
@@ -14,5 +14,5 @@ export type Dispatch = RematchDispatch<RootModel>;
 export type RootState = RematchRootState<RootModel>;
 
 export interface RootModel {
-  dolphins: typeof dolphins;
+  count: typeof count;
 }
